@@ -1,0 +1,74 @@
+server:
+  port: 8027
+  base-path: /communication-integration
+  error:
+    include-message: always
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1530/MCCME
+    username: awadood
+    password: awadood
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 45000
+      validation-timeout: 7500
+      idle-timeout: 1200000
+      max-lifetime: 2700000
+      data-source-properties:
+        implicitCachingEnabled: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
+        generate_statistics: true
+        order_inserts: true
+        order_updates: true
+        use_sql_comments: false
+        show_sql: false
+        jdbc:
+          batch_size: 100
+
+logging:
+  config: config/log4j2.xml
+
+kafka:
+  bootstrap-address: 10.50.143.55:9092,10.50.143.54:9092
+  communication-uuid-check: true
+  event-topic:
+    name: campaignEventsTopic
+    partition: 8
+    replication: 1
+    retention-ms: 43200000
+  integration-topic:
+    name: customPusher
+    group: customPusherGroup
+    auto-offset-reset: earliest
+    enable-auto-commit: false
+    partition: 8
+    replication: 1
+    retention-ms: 43200000
+    concurrency: 4
+    max-pool-records: 1000
+  producer:
+    buffer-memory: 33554432
+    batch-size: 16384
+    linger-ms: 300
+    acks: 1
+
+rateLimiter:
+  enabled: true
+  tpsLimit: 1000
+
+custom-pusher:
+  silentModeStart: '00:00:01'
+  silentModeEnd: '23:59:59'
+  persistJobBufferSize: 10000
+  persistPoolSize: 4
+  persistSql: INSERT INTO JAZZ_CUSTOM_PUSHER (CAMPAIGN_ID, INSERT_TIME, MSISDN, TITLE, BODY, SILENTMODE, "TIMESTAMP", OFFER_UUID, SUBMIT_DATE, SEGMENT_NAME, CAMPAIGN_NOTIFICATION, DESCRIPTION, TOKEN) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  connectionTimeout: 3000
+  isTimeRestricted: false

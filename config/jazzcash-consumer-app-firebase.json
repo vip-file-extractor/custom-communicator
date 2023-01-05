@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jazzcash-consumer-app",
+  "private_key_id": "3ab045af3fea61a013ccf79fc1b52e2ed99",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSijrmnlZPNG\nY9JlGUCJlZVPOxiDcOGGmGDB2UwHXe05rD/F1PA3iSLCtT0jbR4X+FudIjeTH2dl\n4fOzPKrJGM/lJxbOKXKchNXzBl7ciHbyZZ6DH+p/sYsAGs7y63oq5cK/dhu683xw\njt/3yM0Z/sD+gxcyXSkOVUb9jY9bqbbw4s1U2PgyEYr2BKYp/A1cqb8iAMt8niq8\nJeKsumcEro4XtjycEZfc+Uuewc0EE69VEYS41e3qKK4deKqE1BS+gQyzwhbbNdKC\nXmfUk51Bv1Z1apwTdpqyDoFnMRaKf2y249rw+NERmMIwp0NXuqeIPxE9hRYB/vCR\nz4J743WxAgMBAAECggEAHop/5eUrHk/wo9kFoh0IryuJSmD0MWNdLKnldYZDgKBL\nwHABML34YAMM7gvj5V7YNnczIhQyFLuXDafQyloIwTYwoqUdM2zdSFxc7bM5tyn5\n7EQKdGTrHsgSyLNADSIOQkJM6g7V4W4efbmiTmEzLAQ/+oyzguqt8PA4PJN+zSYZ\n9yrJcw/iaaT8RmJ69t/dTCy9DLikHyruEvBurNutqOP18eALfKNh/ZuU12ESzD2S\nHhOa3uIQX7I4UQqj55lXFPwAcrxj2IkqkAQcSu0ozOWtu5rn9CPrJKoBVzqSaB2w\nffiY7Sxh1corol3LelHXQqh+QB6NZWlAvmJX2sS02QKBgQD5PNoRManGW52Q2d0j\n+3x+HFmRrEKKN/r16Vw7q/ygEAweUGHni7zpkCKiSlloB8eQMvRezPSOMY/9HmRD\nVONGTHMwnN2+7JLViXUDt2/t/WzY6BCrXW/LbldbrzcTv2hpUa9qBG8mYYM4XdlW\nVbiJNPvmot/Ixjd4Gs//I6ZrBwKBgQDQds4a8Ne6pleUrny4Zi7gf9ulMXsoMosV\nupTdA7D+BjEvaBAhcOy6Ua2ILp1lhcM1aiERtpb/NvIXV8eyquX9eTDDJn8/P3G+\nLLTyi68JFLPRQpM3L7jZh2J4s3ZO79ggbOmAm9NcpyeEM9ne4jOAfH2MgKqpYtr8\ntJg+u/SThwKBgAE6doytJPwQSYeEO13JCIUKmLpqEe3idr8thkHZCCa1zYl8te7R\nNn4kMreADE7B8w7X4XJyKiZlQiNqOe5HBdO73rl3nHQrcFHTGpuJFOkkXZv4ENT3\nYeyrv4x5IZlcUSRrvaSVHwMeaeomNEMDqyQp+a/aT6YKrA1QfIPyZgiTAoGAFn3r\nCO8ZZ5MQ+gLFhCPKRQCmkzE+h3zEkuiZrSr7yryiS+ofa2xCrmunnHzjEJQZFsdH\noCCiNBEal7gp3LYhsHKF91hM/Gb8/7bVIyI9FW69ZAOZ3Kdye03nKvy59BRerkjx\n/KVTbbi/Q71QcYLYabGE3kb3ouT+matmjcY7wjsCgYBSPV91GUzMR85fOAQXIUg7\nq1ZqYUBlJal4wYrrDOqMUfAkfwJfR4bxjv3DKAKmlqnkxyfzBnlx7DKMCfxdo420\n0gLYCUsgwoVavaVbd0E9Gwab7kf5ElbC/3DfTaZWR1rpC9WjgFr/z0i7B/xKabqu\nroeNw0GVYaYvXA7O+y5RPA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-l2ddv@jazzcash-consumer-app.iam.gserviceaccount.com",
+  "client_id": "100428951733515208409",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-l2ddv%40jazzcash-consumer-app.iam.gserviceaccount.com"
+}
